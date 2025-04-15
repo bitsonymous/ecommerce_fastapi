@@ -18,10 +18,7 @@ app = FastAPI(
     description=description,
     title="E-commerce API",
     version="1.0.0",
-    contact={
-        "name": "Ali Seyedi",
-        "url": "https://github.com/aliseyedi01",
-    },
+    
     swagger_ui_parameters={
         "syntaxHighlight.theme": "monokai",
         "layout": "BaseLayout",
